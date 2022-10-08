@@ -28,8 +28,15 @@ insert into gols values(4,2340,'10:44');
 insert into gols values(6,2230,'22:20');
 
 
-
-
 -- catões 
-insert into cartao values(1,2240,'22:14');
+insert into cartao values(0,0,1,'22:20');
+insert into cartao values(1,0,0,'21:45');
+insert into cartao values(2,0,0,'06:10');
+insert into cartao values(3,1,0,'22:20');
+insert into cartao values(4,0,1,'07:45');
+insert into cartao values(5,1,1,'22:20');
+insert into cartao values(6,1,1,'22:20');
+insert into cartao values(7,0,0,'10:44');
+insert into cartao values(8,1,1,'12:31');
+insert into cartao values(9,0,1,'22:20');
 
