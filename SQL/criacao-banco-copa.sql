@@ -52,7 +52,8 @@ CREATE TABLE jogador (
     nome VARCHAR(45),
     camisa VARCHAR(45),
     posicao VARCHAR(45),
-    situacao CHAR(1)
+    situacao CHAR(1),
+    grupo_idgrupo CHAR(1)
 );
  
 
@@ -71,9 +72,9 @@ CREATE TABLE substituicao (
 
 CREATE TABLE cartao (
     jogos_idrodada INTEGER,
-    jogador_idjogador INTEGER,
     amarelo TINYINT,
     vermelho TINYINT,
+    jogador_idjogador INTEGER,
     tempo VARCHAR(45)
 ); 
 
