@@ -26,8 +26,7 @@ CREATE TABLE pais (
     derrotas INTEGER,
     golspro INTEGER,
     golscontra INTEGER,
-    grupo_idgrupo CHAR(1),
-
+    grupo_idgrupo CHAR(1)
 );
 
 CREATE TABLE jogos (
@@ -48,15 +47,11 @@ CREATE TABLE estadio (
     capacidade INTEGER  
 );
 
-CREATE TABLE jogos (
-    idjogos INTEGER PRIMARY KEY,
+CREATE TABLE jogador (
+    idjogador INTEGER PRIMARY KEY,
     nome VARCHAR(45),
-    altura INTEGER,
-    peso INTEGER,
-    dataNascimento DATE,
     camisa VARCHAR(45),
     posicao VARCHAR(45),
-    pais_idpais INTEGER,
     situacao CHAR(1)
 );
  
