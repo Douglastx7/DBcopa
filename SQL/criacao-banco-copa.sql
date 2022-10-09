@@ -60,6 +60,7 @@ CREATE TABLE jogador (
 CREATE TABLE gols (
     jogo_idrodada INTEGER,
     jogador_idjogador INTEGER,
+    quantidade_gols INTEGER,
     tempo VARCHAR(45)
 );
 

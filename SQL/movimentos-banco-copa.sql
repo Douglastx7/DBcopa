@@ -28,18 +28,18 @@ insert into substituicao values(10,10,3,'23:04');
 
 
 -- tabela gols
-insert into gols values(1,0,'22:14');
-insert into gols values(1,6,'15:34');
-insert into gols values(2,2,'12:31');
-insert into gols values(7,7,'06:45');
-insert into gols values(4,7,'10:44');
-insert into gols values(6,5,'22:20');
-insert into gols values(1,5,'22:14');
-insert into gols values(1,4,'15:34');
-insert into gols values(2,3,'12:31');
-insert into gols values(7,1,'06:45');
-insert into gols values(4,1,'10:44');
-insert into gols values(6,2,'22:20');
+insert into gols values(1,0,4,'22:14');
+insert into gols values(1,6,6,'15:34');
+insert into gols values(2,2,3,'12:31');
+insert into gols values(7,7,2,'06:45');
+insert into gols values(4,7,5,'10:44');
+insert into gols values(6,5,5,'22:20');
+insert into gols values(1,5,9,'22:14');
+insert into gols values(1,4,2,'15:34');
+insert into gols values(2,3,4,'12:31');
+insert into gols values(7,1,9,'06:45');
+insert into gols values(4,1,2,'10:44');
+insert into gols values(6,2,1,'22:20');
 
 
 -- catões 
